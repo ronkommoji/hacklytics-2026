@@ -24,16 +24,14 @@ export function ToastContainer() {
               </p>
             )}
           </div>
-          {toast.type !== 'loading' && (
-            <button
-              type="button"
-              className="toast-dismiss"
-              aria-label="Dismiss"
-              onClick={() => removeToast(toast.id)}
-            >
-              ×
-            </button>
-          )}
+          <button
+            type="button"
+            className="toast-dismiss"
+            aria-label="Dismiss"
+            onClick={() => removeToast(toast.id)}
+          >
+            ×
+          </button>
         </div>
       ))}
     </div>
