@@ -1978,6 +1978,7 @@ button {
   font-size: 1.25rem;
   line-height: 1;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .toast-dismiss:hover {
